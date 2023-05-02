@@ -10,6 +10,10 @@ img {
   max-width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   background-image: url(../img/bg-header.png);
   border-top: 8px solid #57bb6b;
@@ -20,12 +24,13 @@ header {
   background: #ffffffd2;
   color: #57bb6b;
   text-align: center;
-  padding: 15px 40px;
+  padding: 15px 40px 25px;
   margin: 0 0 20px;
 }
 
 .tagline {
   font-size: 20px;
+  margin: 0;
 }
 
 .cta-container {
@@ -145,6 +150,7 @@ p {
   font-size: 14px;
   font-weight: 700;
   align-self: flex-end;
+  text-decoration: solid underline #000;
 }
 
 .card img {
@@ -180,5 +186,5 @@ footer {
 }
 
 footer .container-icons {
-  margin: 30px 65px 45px;
+  margin: 30px 65px 40px;
 }
