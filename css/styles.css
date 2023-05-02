@@ -169,5 +169,16 @@ footer {
 
 .p-footer {
   font-family: 'Maven Pro', sans-serif;
+  color: #57bb6b;
+  font-size: 12px;
   font-weight: 400;
+  margin: 70px 80px 0;
+}
+
+.icon-banane-reverse {
+  transform: scaleX(-1);
+}
+
+footer .container-icons {
+  margin: 30px 65px 45px;
 }
